@@ -1,4 +1,4 @@
-package edu.ucla.raddet;
+package edu.ucla.raddet.collector;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

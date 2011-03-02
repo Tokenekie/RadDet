@@ -1,4 +1,4 @@
-package edu.ucla.raddet;
+package edu.ucla.raddet.collector;
 
 import java.io.DataOutputStream;
 import java.io.FileInputStream;
@@ -10,7 +10,7 @@ import java.net.URL;
 
 import android.util.Log;
 
-public class HttpFileUploader implements Runnable{
+public class HttpFileUploader{
 
 	URL connectURL;
 	String params;
@@ -126,11 +126,5 @@ public class HttpFileUploader implements Runnable{
 		{
 			Log.e(Tag, "error: " + ioe.getMessage(), ioe);
 		}
-	}
-	
-
-	@Override
-	public void run() {
-		
 	}
 }
